@@ -1,0 +1,9 @@
+t=int(input())
+for i in range(t):
+    x=int(input())
+    print(x*15)
+
+"""
+Problem Link :
+https://www.codechef.com/problems/SQUATS
+"""
