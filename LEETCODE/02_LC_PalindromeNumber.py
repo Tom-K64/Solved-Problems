@@ -18,11 +18,8 @@ class Solution(object):
             else:
                 return False
             
-            
-            
-            
-            
-            
+                   
+                       
 """
 Problem Link :
 https://leetcode.com/problems/palindrome-number/
