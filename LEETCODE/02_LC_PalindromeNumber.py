@@ -17,6 +17,12 @@ class Solution(object):
                 return True
             else:
                 return False
+            
+            
+            
+            
+            
+            
 """
 Problem Link :
 https://leetcode.com/problems/palindrome-number/
