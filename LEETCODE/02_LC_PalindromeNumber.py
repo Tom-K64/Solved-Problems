@@ -16,8 +16,7 @@ class Solution(object):
             if newnum==x:
                 return True
             else:
-                return False
-           
+                return False           
                    
 """
 Problem Link :
