@@ -11,3 +11,4 @@ for i in range(t):
         print(500)
     else:
         print(2000)
+       
