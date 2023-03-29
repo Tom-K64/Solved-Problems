@@ -16,7 +16,11 @@ class Solution(object):
             if newnum==x:
                 return True
             else:
-                return False                   
+                return False
+
+            
+
+
 """
 Problem Link :
 https://leetcode.com/problems/palindrome-number/
