@@ -8,4 +8,4 @@ for i in range(n):
 	x = int(input())
 	if x % k == 0:
 		ans += 1
-print(ans)	
+print(ans)
