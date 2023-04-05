@@ -9,5 +9,3 @@ for i in range(n):
 	if x % k == 0:
 		ans += 1
 print(ans)	
-
-
