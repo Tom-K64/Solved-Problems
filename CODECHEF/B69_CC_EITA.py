@@ -1,0 +1,8 @@
+"""
+Problem Link :
+https://www.codechef.com/problems/EITA
+"""
+t=int(input())
+for i in range(t):
+    d,x,y,z=map(int,input().split())
+    print(max((x*7),((y*d)+(z*(7-d)))))
