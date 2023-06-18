@@ -18,7 +18,6 @@ class Solution(object):
             else:
                 return False
 
-
       
 """
 Problem Link :
