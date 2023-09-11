@@ -12,6 +12,8 @@ class Solution(object):
                     return [i,nums.index(diff,i+1,)]
                 except:
                     continue
+
+
 """
 Problem Link :
 https://leetcode.com/problems/two-sum/
