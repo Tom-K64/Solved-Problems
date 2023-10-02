@@ -17,5 +17,5 @@ class Solution:
     return False
 """
 Problem Link :
-https://leetcode.com/problems/simplify-path/
+https://leetcode.com/problems/search-a-2d-matrix/
 """
