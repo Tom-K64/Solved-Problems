@@ -2,6 +2,7 @@
 Problem Link:
 https://leetcode.com/problems/implement-stack-using-queues/
 """
+
 class MyStack:
   def __init__(self):
     self.q = collections.deque()
