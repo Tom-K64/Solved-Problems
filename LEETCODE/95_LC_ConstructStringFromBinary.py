@@ -1,0 +1,21 @@
+"""
+Problem Link:
+https://leetcode.com/problems/construct-string-from-binary-tree/
+"""
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+  def tree2str(self, t):
+    def dfs(root):
+      if not root:
+        return ''
+      if root.right:
+        return str(root.val) + '(' + dfs(root.left) + ')(' + dfs(root.right) + ')'
+      if root.left:
+        return str(root.val) + '(' + dfs(root.left) + ')'
+      return str(root.val)
+    return dfs(t)
